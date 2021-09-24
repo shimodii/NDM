@@ -14,10 +14,10 @@ it store URLs in a string and then with a for loop it put "wget URL" in a temp f
 # How to install
 we add a script that when you run it, it copy dm executable file to your path and then you can run it frome everywhere by dm commannd or you can make alias for it
 
-    1-git clone https://github.com/am-shm/download-manager.git
-    2-cd download-manager
-    3-chmod +x install.sh dm.sh
-    4-./install.sh
+     git clone https://github.com/am-shm/download-manager.git
+     cd download-manager
+     chmod +x install.sh dm.sh
+     ./install.sh
   
 
 <br><br><br>
