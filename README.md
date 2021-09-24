@@ -11,6 +11,9 @@ for multi files to download steps aresimilar last one with this different that y
 # How it works
 it store URLs in a string and then with a for loop it put "wget URL" in a temp file then run it with bash and after downloading files it remove the temp file 
 
+# How to install
+we add a script that when you run it, it copy dm executable file to your path and then you can run it frome everywhere by dm commannd or you can make alias for it
+
 <br><br><br>
 make with love 🍀💝 <br>
 <h1>enjoy it 🕯️🍬</h1>
