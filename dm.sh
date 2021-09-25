@@ -23,9 +23,9 @@ then
 		clear
 		if [ $count -ge 1 ]
 		then
-				echo "$count files were download"
+				echo "$count files were downloaded"
 			else
-				echo "$count file was download"
+				echo "$count file was downloaded"
 		fi
 		rm temp.sh
 	else
