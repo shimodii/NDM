@@ -1,5 +1,6 @@
 #!/bin/bash 
 
+clear
 printf "[✓] hello, enter folder you want to save files: [like /home/amirmohammad/Downloads/] \n \n"
 read dlpath
 
