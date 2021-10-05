@@ -18,7 +18,8 @@ we add a script that when you run it, it copy dm executable file to your path an
      cd download-manager
      chmod +x install.sh dm.sh
      ./install.sh
-  
+     
+ # GUI version will add soon
 
 <br><br><br>
 make with love 🍀💝 <br>
