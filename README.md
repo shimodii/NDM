@@ -22,5 +22,5 @@ we add a script that when you run it, it copy dm executable file to your path an
  # GUI version will add soon
 
 <br><br><br>
-make with love 🍀💝 <br>
+made with love 🍀💝 <br>
 <h1>enjoy it 🕯️🍬</h1>
