@@ -71,6 +71,7 @@ change_download_path () {
 clear_download_list () {
 	rm $download_list_dir
 	touch $download_list_dir
+	main_init
 }
 clear
 echo
