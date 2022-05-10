@@ -102,15 +102,18 @@ printf "What is your choice (1-4): "
 read choice
 if [[ $choice == "1" ]]; then
 	start_download
+	main_init
 elif [[ $choice == "2" ]]; then
 	add_link
 	main_init
 elif [[ $choice == "3" ]]; then
 	change_download_path
+	main_init
 elif [[ $choice == "4" ]]; then
 	clear_download_list
 elif [[ $choice == "5" ]]; then
 	exit 
 else
 	echo "Not sure about your choice!"
+	main_init
 fi
