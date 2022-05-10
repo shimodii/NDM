@@ -15,7 +15,7 @@ main_init () {
 	[4] Clear download list
 	[5] Exit"
 	echo
-	printf "What is your choice (1-4): "
+	printf "What is your choice (1-5): "
 	read choice
 	choice_read
 }
@@ -100,7 +100,7 @@ echo "[1] Start download
 [4] Clear download list
 [5] Exit"
 echo
-printf "What is your choice (1-4): "
+printf "What is your choice (1-5): "
 read choice
 if [[ $choice == "1" ]]; then
 	start_download
