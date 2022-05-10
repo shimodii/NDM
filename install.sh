@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mv dm.sh dm
-sudo cp dm /usr/local/bin
+sudo cp ./NDM.sh /usr/local/bin/ndm 
+sudo cp ./NDM.sh /usr/local/bin/NDM
 
 clear
 echo 'succecfully installed!'
