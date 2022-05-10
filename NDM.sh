@@ -80,6 +80,7 @@ echo
 current_date=$(date | awk '{print $2"_"$3"_"$6"_"$4}')
 download_dir="/tmp/$current_date"
 download_list_dir="/tmp/$current_date/download_list"
+download_path="$USER/Downloads"
 mkdir $download_dir
 touch $download_list_dir
 
@@ -90,7 +91,7 @@ else
 	cat $download_list_dir
 fi
 echo
-printf "Enter download path (you can change it later): "
+printf "Enter download path (you can change it later): [Default: $download_path]"
 read download_path
 
 echo "[1] Start download
