@@ -80,7 +80,7 @@ echo
 current_date=$(date | awk '{print $2"_"$3"_"$6"_"$4}')
 download_dir="/tmp/$current_date"
 download_list_dir="/tmp/$current_date/download_list"
-download_path="$USER/Downloads"
+download_path="/home/$USER/Downloads"
 mkdir $download_dir
 touch $download_list_dir
 
