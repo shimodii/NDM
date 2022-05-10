@@ -3,5 +3,8 @@
 sudo cp ./NDM.sh /usr/local/bin/ndm 
 sudo cp ./NDM.sh /usr/local/bin/NDM
 
-clear
-echo 'succecfully installed!'
+if [[ $? == "0" ]]; then
+	echo "Done !"
+else
+	echo "Some ERROR happend"
+fi
