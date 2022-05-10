@@ -6,7 +6,7 @@ this downlowd manager written in bash script and it use wget and a for loop to d
 
 # How to works
 its simple :D 
-![screenshot] (./screenshot/main.png)
+![screenshot](./screenshot/main.png)
 
 # How to install
 just by these steps:
