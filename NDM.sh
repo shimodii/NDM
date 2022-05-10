@@ -17,6 +17,7 @@ main_init () {
 	echo
 	printf "What is your choice (1-4): "
 	read choice
+	choice_read
 }
 choice_read () {
 	if [[ $choice == "1" ]]; then
@@ -46,9 +47,9 @@ start_download () {
 		printf "Would you download $file? [Y/N]\n"
 		read answer
 		if [[ $answer == "Y" ]]; then
-			wget $file $download_path
+			wget $file -P $download_path
 		elif [[ $answer == "y" ]]; then
-			wget $file $download_path
+			wget $file -P $download_path
 		elif [[ $answer == "n" ]]; then
 			echo "Next URL..."
 		elif [[ $answer == "N" ]]; then
@@ -89,7 +90,7 @@ else
 	cat $download_list_dir
 fi
 echo
-printf "Enter download path:"
+printf "Enter download path (you can change it later): "
 read download_path
 
 echo "[1] Start download
