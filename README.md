@@ -13,6 +13,7 @@ just by these steps:
 
 	1- clone the repo
 	2- chmod +x install.sh
+	3- ./install.sh
 
 now you can run it by <tt>ndm / NDM</tt> command
 # GUI version will add soon
